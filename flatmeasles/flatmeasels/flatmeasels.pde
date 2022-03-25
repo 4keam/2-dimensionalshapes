@@ -2,6 +2,7 @@
 int smallerGeometryDimension;
 float rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight;
 float faceX, faceY, faceDiameter;
+float leftEyeX, leftEyeY, leftEyeDiameter;
 //
 //Display Geometry
 fullScreen(); //displayWidth, displayHeight
@@ -28,20 +29,18 @@ rectFaceHeight = smallerGeometryDimension;
 faceX = appWidth*1/2; 
 faceY = appHeight*1/2;
 faceDiameter = smallerGeometryDimension; 
+leftEyeX = ; 
+leftEyeY = ;
+leftEyeDiameter = ;
+
+
 //
 //Face: Circle, inscribed in a square
 //Center a circle on display orientation (landscape)
 rect(rectFaceX, rectFaceY, rectFaceWidth, rectFaceHeight);
 ellipse(faceX, faceY, faceDiameter, faceDiameter);
 //
-//Left Eye
-//rect();
-//ellipse();
-//
-//Right Eye
-//rect();
-//ellipse();
-//
+//Left Eye 
 //Nose
 //rect();
 //triangle();
